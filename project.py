@@ -16,7 +16,7 @@ def git_init():
     URL = input('write yout git-URL : ') #url을 인풋받기
     os.system(f'git remote add origin {URL}') #formating이용해서 url 과 연동.
     os.system('git branch -M main')
-    os.system('git push -u origin main')
+    os.system('git push -u -f origin main')
 #    winsound.Beep(200, 100) #완료하면 사운드 발생
 
     return
@@ -28,8 +28,8 @@ def auto_commit():
     print('git add -A')
     os.system(f'git commit -m "{this_tm.tm_year}+{this_tm.tm_mon}+{this_tm.tm_mday}+{this_tm.tm_hours}+{this_tm.tm_min}"')
     print(f'git commit -m "{this_tm.tm_year}+{this_tm.tm_mon}+{this_tm.tm_mday}+    {this_tm.tm_hours}+{this_tm.tm_min}"')
-    os.system('git push')
-    print('git push')
+    os.system('git push -f')
+    print('git push -f')
 
 #    winsound.Beep(200, 100)
     return
