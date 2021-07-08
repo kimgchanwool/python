@@ -36,8 +36,10 @@ def auto_commit():
 #    winsound.Beep(200, 100)
     return
 #schedule
-schedule.every().day.at('18:10').do(auto_commit)
-schedule.every().day.at('19:39').do(auto_commit)
+schedule.every().day.at('09:05').do(auto_commit)
+schedule.every().day.at('13:00').do(auto_commit)
+schedule.every().day.at('18:00').do(auto_commit)
+schedule.every().day.at('20:00').do(auto_commit)
 #schedule에서 every().day를 사용
 #12:00에 실행.
 # .do 는 해당 함수를 실행
