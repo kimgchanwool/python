@@ -2,13 +2,12 @@ import cv2
 import os
 
 nw = 100
-#img = cv2.imread('project.jpg', 0)
+
 CHARS='`~!@#$%^&*()_+= ,./;[]"\''
-#image = cv2.imread('project.jpg', 0) #flag 0은 흑백이라 z값이 사라짐.
+
 cap = cv2.VideoCapture('man.mp4')
 os.system('cls')
-#print("\x1B[H")
-#print("\x1b[2J", end='')
+
 while cap.isOpened():
     ret, img = cap.read()
     if not ret:
@@ -32,9 +31,10 @@ while cap.isOpened():
     #print("\x1b[H", end='')
     #print("\x1B[J")
 
-
-
-
+#img = cv2.imread('project.jpg', 0)
+#image = cv2.imread('project.jpg', 0) #flag 0은 흑백이라 z값이 사라짐.
+#print("\x1B[H")
+#print("\x1b[2J", end='')
 
 #h, w = image.shape
 
