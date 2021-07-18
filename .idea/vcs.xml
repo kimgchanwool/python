@@ -4,7 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/backup" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/python" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/프로젝트1 제출파일" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/프로젝트1 제출파일/backup" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/프로젝트 1(opencv + np/프로젝트1 제출파일" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/프로젝트 1(opencv + np/프로젝트1 제출파일/backup" vcs="Git" />
   </component>
 </project>
